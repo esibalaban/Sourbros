@@ -32,17 +32,17 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight">
-              Like Strava — but for cooking 🍳
+              Do you like food? 🍳
             </h1>
             <p className="mt-4 text-lg text-slate-600">
-              Track your cooks, log recipes, and share with friends. Discover new dishes from people you trust.
+              Boy do we have the app for you
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href="#waitlist"
                 className="rounded-xl bg-slate-900 text-white px-5 py-3 hover:opacity-90"
               >
-                Join the waitlist
+                Click here to make an account 
               </a>
               <a
                 href="#features"
@@ -52,15 +52,14 @@ export default function Home() {
               </a>
             </div>
             <p className="mt-3 text-sm text-slate-500">
-              iOS + Android coming soon.
+              Android coming soon.
             </p>
           </div>
           <div className="relative aspect-[4/3] w-full rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
-            {/* Replace /app-screenshot.png with your own in /public */}
             <Image
-              src="/app-screenshot.png"
-              alt="SourBros app preview"
+              src="/sourbross.jpeg"
               fill
+              alt ="SourBros logo"
               className="object-cover"
             />
           </div>
@@ -89,3 +88,4 @@ export default function Home() {
     </main>
   );
 }
+
