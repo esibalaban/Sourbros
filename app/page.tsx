@@ -23,7 +23,7 @@ export default function Home() {
       {/* App name / heading */}
       <h1 className="text-4xl font-bold mt-6">sourbros</h1>
       <p className="text-lg text-gray-600 mt-2">
-        Download our shitty app to join the sourbros community to roast your friend's scrans.
+        Download our shitty app to join the sourbros community to roast your friend&apos;s scrans.
       </p>
 
       {/* iOS App Store button (official badge) */}
