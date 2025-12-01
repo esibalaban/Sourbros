@@ -1,0 +1,197 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "comments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "postId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "fmkReactions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "postId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "likes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "postId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "likedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "notifications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "pokes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "pokedUserId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "responseCreatedAt",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "responsePhotoURL",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "pokes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "pokedId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "responseCreatedAt",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "responsePhotoURL",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "pokes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "pokedId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "responsePhotoURL",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "responseTimestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "pokes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "pokedUserId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "responseCreatedAt",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "responsePhotoURL",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "pokes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "pokerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "pokes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "pokerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "responseCreatedAt",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "responsePhotoURL",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "likes",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
