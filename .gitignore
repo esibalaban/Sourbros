@@ -39,3 +39,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+bread-strava-firebase-adminsdk-fbsvc-1de67da659.json

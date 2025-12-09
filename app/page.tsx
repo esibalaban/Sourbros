@@ -1,6 +1,6 @@
 // app/page.tsx
-import Image from "next/image";
 import Link from "next/link";
+import AndroidWaitlistForm from "./components/AndroidWaitlistForm";
 
 export default function Home() {
   return (
@@ -23,23 +23,28 @@ export default function Home() {
       {/* App name / heading */}
       <h1 className="text-4xl font-bold mt-6">sourbros</h1>
       <p className="text-lg text-gray-600 mt-2">
-        Download our shitty app to join the sourbros community to roast your friend&apos;s scrans.
+        Cook more, eat better. Connect with friends of friends, get inspiration for your meals and share your successes and failures.
       </p>
 
-      {/* iOS App Store button (official badge) */}
-      <Link
-        href="https://apps.apple.com/app/idXXXXXXXXX"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-6"
-      >
-        <img
-          src="/app-store-badge.svg"
-          alt="Download on the App Store"
-          width={200}
-          height={60}
-        />
-      </Link>
+      {/* iOS App Store + Android waitlist side by side */}
+      <div className="mt-8 w-full max-w-2xl flex items-center justify-center">
+        <Link
+          href="https://testflight.apple.com/join/qF5JPd1S"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="h-full"
+        >
+          <img
+            src="/app-store-badge.svg"
+            alt="Download on the App Store"
+            width={200}
+            height={100}
+          />
+        </Link>
+      </div>
+        <div className="mt-8 w-full flex items-center justify-center">
+          <AndroidWaitlistForm />
+        </div>
     </main>
   );
 }
